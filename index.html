@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App by DumiRuka</title>  
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="styleSheets/globals.css" />
+  <link rel="stylesheet" href="styleSheets/styleguide.css" />
+  <link rel="stylesheet" href="styleSheets/style.css" />
+</head>
+
+<body>
+  <div class="weather-app-main">
+    <div class="div">
+      <div class="overlap">
+        <div class="customize-page">
+          <div class="sub-container">
+            <div class="rectangle">
+              <div class="overlap-group">
+                <div class="text-wrapper">Units</div>
+                <div class="rectangle-2"></div>
+                <div class="group">
+                  <div class="div-wrapper">
+                    <div class="text-wrapper-2">Celsius</div>
+                  </div>
+                  <div class="overlap-group-2">
+                    <div class="text-wrapper-3">Fahrenheit</div>
+                  </div>
+                </div>
+                <div class="group-2">
+                  <div class="div-wrapper">
+                    <div class="text-wrapper-2">km/h</div>
+                  </div>
+                  <div class="overlap-group-2">
+                    <div class="text-wrapper-4">mph</div>
+                  </div>
+                </div>
+                <div class="group-3">
+                  <div class="div-wrapper">
+                    <div class="text-wrapper-2">Millimeters</div>
+                  </div>
+                  <div class="overlap-group-2">
+                    <div class="text-wrapper-4">Inches</div>
+                  </div>
+                </div>
+                <div class="group-4">
+                  <div class="overlap-group-2">
+                    <div class="text-wrapper-4">Miles</div>
+                  </div>
+                  <div class="div-wrapper">
+                    <div class="text-wrapper-2">Kilometers</div>
+                  </div>
+                </div>
+                <div class="text-wrapper-5">Temperature</div>
+                <div class="text-wrapper-6">Wind Speed</div>
+                <div class="text-wrapper-7">Precipitation</div>
+                <div class="text-wrapper-8">Distance</div>
+              </div>
+            </div>
+            <div class="prem-container">
+              <div class="rectangle-3">
+                <div class="rectangle-4"></div>
+                <div class="group-5">
+                  <div class="text-wrapper-9">Premium</div>
+                  <div class="text-wrapper-10">Get user friendly experience</div>
+                  <div class="overlap-group-3">
+                    <div class="text-wrapper-11"># Ad free access</div>
+                    <div class="text-wrapper-12"># Weather changes notifications</div>
+                    <div class="text-wrapper-13"># 24/7 support</div>
+                  </div>
+                  <img class="line" src="img/line-20.png" />
+                </div>
+                <div class="overlap-wrapper">
+                  <div class="element-month-wrapper">
+                    <p class="element-month">
+                      <span class="span">$6.99 </span> <span class="text-wrapper-14">/month</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="rectangle-5">
+                <p class="p">Be aware of the weather changes</p>
+                <p class="text-wrapper-15">Sign up to receive free notifications and newsletter</p>
+                <div class="overlap-group-wrapper">
+                  <div class="overlap-group-4">
+                    <div class="text-wrapper-16">Sign up</div>
+                  </div>
+                </div>
+                <img class="img" src="img/line-21.png" />
+              </div>
+            </div>
+          </div>
+          <div class="rectangle-6">
+            <div class="overlap-2">
+              <div class="footer-box">
+                <img class="rectangle-7" src="img/rectangle-20.png" />
+                <div class="overlap-group-5">
+                  <img class="line-2" src="img/line-22.png" />
+                  <div class="support-feedback">Support &amp; Feedback</div>
+                </div>
+              </div>
+              <div class="footer-note">
+                <p class="you-can-send">
+                  You can send feedback and get support via email &amp; phone calls from the details of our apps which
+                  could provide us with detail about the issue of the application you are running.<br /><br />You can
+                  also get help on social media via our accounts. Follow them to get tips and updates.
+                </p>
+                <div class="contact-box">
+                  <div class="text-wrapper-17">Email Support :</div>
+                  <div class="text-wrapper-18">Call us :</div>
+                  <a href="mailto:support@dumiruka.com" target="_blank" rel="noopener noreferrer">
+                    <div class="text-wrapper-19">support@dumiruka.com</div>
+                  </a>
+                  <div class="text-wrapper-20">+94 777733333</div>
+                </div>
+              </div>
+              <div class="footer-bar">
+                <img class="twitter" src="img/twitter.png" />
+                <img class="instagram" src="img/instagram.png" />
+                <img class="tik-tok" src="img/tiktok.png" />
+                <img class="linked-in" src="img/linkedin.png" />
+                <img class="facebook-f" src="img/facebook-f.png" />
+                <img class="you-tube" src="img/youtube.png" />
+                <img class="email" src="img/email.png" />
+                <img class="line-3" src="img/line-23.png" />
+                <img class="line-4" src="img/line-24.png" />
+              </div>
+              <div class="copyright">
+                <div class="text-wrapper-21">Copyright</div>
+                <div class="text-wrapper-22">ICET-DumiRuka</div>
+                <img class="copyright-2" src="img/copyright.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="map-page">
+          <div class="rectangle-8" id="map"></div>
+          
+          <div class="city-data-map">
+            <div class="group-6">
+              <p class="element"><span class="text-wrapper-23">33/</span> <span class="text-wrapper-24">20</span></p>
+              <div class="text-wrapper-25">Sunny</div>
+              <img class="sun" src="img/sun-13.png" />
+              <div class="text-wrapper-26">Wed</div>
+            </div>
+            <div class="group-7">
+              <p class="element-2">
+                <span class="text-wrapper-23">33/</span> <span class="text-wrapper-24">20</span>
+              </p>
+              <div class="text-wrapper-27">Cloudy</div>
+              <div class="text-wrapper-28">Tus</div>
+              <img class="cloud" src="img/cloud-9.png" />
+              <img class="line-5" src="img/line-18-1.png" />
+            </div>
+            <div class="group-8">
+              <p class="element-3">
+                <span class="text-wrapper-23">33/</span> <span class="text-wrapper-24">20</span>
+              </p>
+              <div class="text-wrapper-29">Cloudy</div>
+              <div class="text-wrapper-30">Mon</div>
+              <img class="cloud-2" src="img/cloud-8.png" />
+              <img class="line-6" src="img/line-18-1.png" />
+            </div>
+            <div class="group-9">
+              <div class="group-10">
+                <div class="text-wrapper-31">25o</div>
+                <img class="cloud-3" src="img/cloud-7.png" />
+                <div class="text-wrapper-32">6:00AM</div>
+              </div>
+              <div class="group-11">
+                <div class="text-wrapper-33">29o</div>
+                <img class="partly-cloudy-day" src="img/partly-cloudy-day-5.png" />
+                <div class="text-wrapper-34">9:00AM</div>
+              </div>
+              <div class="group-12">
+                <div class="text-wrapper-35">32o</div>
+                <img class="sun-2" src="img/sun-12.png" />
+                <div class="text-wrapper-36">12:00PM</div>
+              </div>
+              <img class="line-7" src="img/line-14-1.png" />
+              <img class="line-8" src="img/line-15-1.png" />
+              <div class="text-wrapper-37">TODAY’S</div>
+              <img class="line-9" src="img/line-18-1.png" />
+              <img class="line-10" src="img/line-18-1.png" />
+            </div>
+            <div class="text-wrapper-38">3-DAY FORECAST</div>
+            <div class="group-13">
+              <img class="sun-3" src="img/sun-9.png" />
+              <div class="text-wrapper-39">30o</div>
+              <div class="text-wrapper-40">Colombo</div>
+              <p class="text-wrapper-41">Chance of Rain : 29%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="overlap-3">
+        <div class="favorite-page">
+          <div class="fav-container">
+            <div class="rectangle-9">
+              <div class="text-wrapper-42">30o</div>
+              <div class="text-wrapper-43">11:30</div>
+              <div class="text-wrapper-44">Colombo</div>
+              <img class="sun-4" src="img/sun-9.png" />
+            </div>
+            <div class="rectangle-9">
+              <div class="text-wrapper-45">30o</div>
+              <div class="text-wrapper-46">11:30</div>
+              <div class="text-wrapper-47">Panadura</div>
+              <img class="sun-5" src="img/sun-9.png" />
+            </div>
+            <div class="rectangle-9">
+              <div class="text-wrapper-48">28o</div>
+              <div class="text-wrapper-49">11:30</div>
+              <div class="text-wrapper-50">Galle</div>
+              <img class="heavy-rain" src="img/heavy-rain-1.png" />
+            </div>
+            <div class="rectangle-9">
+              <div class="text-wrapper-51">28o</div>
+              <div class="text-wrapper-52">11:30</div>
+              <div class="text-wrapper-53">Matara</div>
+              <img class="heavy-rain-2" src="img/heavy-rain-1.png" />
+            </div>
+            <div class="rectangle-9">
+              <div class="text-wrapper-54">27o</div>
+              <div class="text-wrapper-55">11:30</div>
+              <div class="text-wrapper-56">Kandy</div>
+              <img class="partly-cloudy-day-2" src="img/partly-cloudy-day-4.png" />
+            </div>
+          </div>
+          <div class="city-data">
+            <div class="group-6">
+              <p class="element"><span class="text-wrapper-23">33/</span> <span class="text-wrapper-24">20</span></p>
+              <div class="text-wrapper-25">Sunny</div>
+              <img class="sun" src="img/sun-8.png" />
+              <div class="text-wrapper-26">Wed</div>
+            </div>
+            <div class="group-7">
+              <p class="element-2">
+                <span class="text-wrapper-23">33/</span> <span class="text-wrapper-24">20</span>
+              </p>
+              <div class="text-wrapper-27">Cloudy</div>
+              <div class="text-wrapper-28">Tus</div>
+              <img class="cloud" src="img/cloud-6.png" />
+              <img class="line-5" src="img/line-18.png" />
+            </div>
+            <div class="group-8">
+              <p class="element-3">
+                <span class="text-wrapper-23">33/</span> <span class="text-wrapper-24">20</span>
+              </p>
+              <div class="text-wrapper-29">Cloudy</div>
+              <div class="text-wrapper-30">Mon</div>
+              <img class="cloud-2" src="img/cloud-5.png" />
+              <img class="line-6" src="img/line-18.png" />
+            </div>
+            <div class="group-9">
+              <div class="group-10">
+                <div class="text-wrapper-31">25o</div>
+                <img class="cloud-3" src="img/cloud-4.png" />
+                <div class="text-wrapper-32">6:00AM</div>
+              </div>
+              <div class="group-11">
+                <div class="text-wrapper-33">29o</div>
+                <img class="partly-cloudy-day" src="img/partly-cloudy-day-3.png" />
+                <div class="text-wrapper-34">9:00AM</div>
+              </div>
+              <div class="group-12">
+                <div class="text-wrapper-35">32o</div>
+                <img class="sun-2" src="img/sun-7.png" />
+                <div class="text-wrapper-36">12:00PM</div>
+              </div>
+              <img class="line-7" src="img/line-14.png" />
+              <img class="line-8" src="img/line-15.png" />
+              <div class="text-wrapper-37">TODAY’S</div>
+              <img class="line-9" src="img/line-18.png" />
+              <img class="line-10" src="img/line-18.png" />
+            </div>
+            <div class="text-wrapper-38">3-DAY FORECAST</div>
+            <div class="group-13">
+              <img class="sun-3" src="img/sun-6.png" />
+              <div class="text-wrapper-39">30o</div>
+              <div class="text-wrapper-40">Colombo</div>
+              <p class="text-wrapper-41">Chance of Rain : 29%</p>
+            </div>
+          </div>
+        </div>
+        <div class="main-body">
+          <div class="body">
+            <div class="body-container">
+              <div class="body-content">
+                <div class="overlap-group-6">
+                  <p class="text-wrapper-57"><span>Chance of Rain : </span><span id="chance-of-rain">0</span>%</p>
+                  <div class="text-wrapper-58" id="location" >Colombo</div>
+                  <div class="star"><img class="star-2" src="img/star-1-1.png" /></div>
+                </div>
+                <div class="text-wrapper-59"><span id="current-temp">30</span><span>o</span></div>
+              </div>
+              <img class="cloud-4" src="img/cloud-3.png" />
+            </div>
+            <div class="today-view">
+              <div class="text-wrapper-60">TODAY’S</div>
+              <div class="group-14">
+                <div class="text-wrapper-61">12:00AM</div>
+                <div class="text-wrapper-62"><span id="temp-0">27</span><span>o</span></div>
+                <img class="partly-cloudy-day-3" id="url0" src="img/partly-cloudy-day.png" />
+              </div>
+              <div class="group-15">
+                <div class="overlap-group-7">
+                  <div class="text-wrapper-63">6:00AM</div>
+                  <img class="line-11" src="img/line-1.png" />
+                </div>
+                <div class="text-wrapper-64"><span id="temp-6">25</span><span>o</span></div>
+                <img class="cloud-5" id="url6" src="img/cloud.png"/>
+              </div>
+              <div class="group-16">
+                <div class="text-wrapper-65">12:00PM</div>
+                <div class="overlap-4">
+                  <div class="text-wrapper-66"><span id="temp-12">32</span><span>o</span></div>
+                  <img class="sun-6" id="url12" src="img/sun.png" />
+                </div>
+                <img class="line-12" src="img/line-2.png" />
+              </div>
+              <div class="group-17">
+                <div class="text-wrapper-67">9:00AM</div>
+                <div class="overlap-5">
+                  <div class="text-wrapper-68"><span id="temp-9">27</span><span>o</span></div>
+                  <img class="partly-cloudy-day-4" id="url9" src="img/partly-cloudy-day-1.png" />
+                  <img class="line-13" src="img/line-3.png" />
+                </div>
+              </div>
+              <div class="group-18">
+                <div class="text-wrapper-69">3:00PM</div>
+                <div class="overlap-6">
+                  <div class="text-wrapper-70"><span id="temp-15">32</span><span>o</span></div>
+                  <img class="sun-6" id="url15" src="img/sun.png" />
+                </div>
+                <img class="line-14" src="img/line-4.png" />
+              </div>
+              <div class="group-19">
+                <div class="text-wrapper-71">9:00PM</div>
+                <div class="text-wrapper-72"><span id="temp-21">29</span><span>o</span></div>
+                <img class="partly-cloudy-day-5" id="url21" src="img/partly-cloudy-day.png" />
+                <img class="line-14" src="img/line-5.png" />
+              </div>
+              <div class="group-20">
+                <div class="text-wrapper-73">6:00PM</div>
+                <div class="overlap-7">
+                  <div class="text-wrapper-74"><span id="temp-18">30</span><span>o</span></div>
+                  <img class="sun-behind-small" id="url18" src="img/sun-behind-small-cloud.png" />
+                </div>
+                <img class="line-15" src="img/line-6.png" />
+              </div>
+            </div>
+            <div class="rectangle-10">
+              <div class="overlap-8">
+                <div class="group-21">
+                  <div class="overlap-group-8">
+                    <div class="text-wrapper-75"><span id="feels-like">27</span> <span>o</span></div>
+                    <div class="text-wrapper-76">Feels like</div>
+                    <img class="temperature" src="img/temperature.png" />
+                  </div>
+                </div>
+                <div class="group-22">
+                  <div class="overlap-9">
+                    <div class="text-wrapper-77"><span id="wind">6</span><span> km/h</span></div>
+                    <img class="wind" src="img/wind.png" />
+                  </div>
+                  <div class="text-wrapper-78">Wind</div>
+                </div>
+                <div class="group-23">
+                  <div class="text-wrapper-79"><span id="humidity">80</span> <span>%</span></div>
+                  <div class="text-wrapper-80">Humidity</div>
+                  <img class="humidity" src="img/humidity.png" />
+                </div>
+                <div class="group-24">
+                  <div class="text-wrapper-81" id="uv">2</div>
+                  <div class="text-wrapper-82">UV Index</div>
+                  <img class="sunlight" src="img/sunlight.png" />
+                </div>
+                <div class="group-25">
+                  <div class="overlap-10">
+                    <div class="text-wrapper-83"><span id="precipitation">0.4</span> <span>mm</span></div>
+                    <img class="rain-sensor" src="img/rain-sensor.png" />
+                  </div>
+                  <div class="text-wrapper-84">Precipitation</div>
+                </div>
+                <div class="group-26">
+                  <div class="overlap-11">
+                    <div class="text-wrapper-85"><span id="visibility">9</span> <span>km</span></div>
+                    <img class="invisible" src="img/invisible.png" />
+                  </div>
+                  <div class="text-wrapper-86">Visibility</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rectangle-11">
+            <div class="text-wrapper-87">7-DAYs FORECAST</div>
+            <div class="group-27">
+              <p class="element-4">
+                <span class="text-wrapper-23">33/</span> <span class="text-wrapper-24">20</span>
+              </p>
+              <div class="text-wrapper-88">Cloudy</div>
+              <div class="text-wrapper-89" id="day1" >Mon</div>
+              <img class="cloud-6" id="imgDay1" src="img/cloud.png" />
+            </div>
+            <img class="line-16" src="img/line-12.png" />
+            <div class="group-27">
+              <p class="element-4">
+                <span class="text-wrapper-23">33/</span> <span class="text-wrapper-24">20</span>
+              </p>
+              <div class="text-wrapper-88">Cloudy</div>
+              <div class="text-wrapper-89" id="day2">Tus</div>
+              <img class="cloud-6" src="img/cloud.png" />
+            </div>
+            <img class="line-16" src="img/line-12.png" />
+            <div class="group-28">
+              <p class="element-5">
+                <span class="text-wrapper-23">33/</span> <span class="text-wrapper-24">20</span>
+              </p>
+              <div class="text-wrapper-90">Sunny</div>
+              <img class="sun-7" src="img/sun.png" />
+              <div class="text-wrapper-91" id="day3">Wed</div>
+            </div>
+            <img class="line-16" src="img/line-12.png" />
+            <div class="group-28">
+              <p class="element-5">
+                <span class="text-wrapper-23">33/</span> <span class="text-wrapper-24">20</span>
+              </p>
+              <div class="text-wrapper-90">Sunny</div>
+              <img class="sun-7" src="img/sun.png" />
+              <div class="text-wrapper-91" id="day4">Thu</div>
+            </div>
+            <img class="line-16" src="img/line-12.png" />
+            <div class="group-29">
+              <p class="element-6">
+                <span class="text-wrapper-23">33/</span> <span class="text-wrapper-24">20</span>
+              </p>
+              <div class="text-wrapper-92">Rainy</div>
+              <div class="text-wrapper-93" id="day5">Fri</div>
+              <img class="heavy-rain-3" src="img/heavy-rain.png" />
+            </div>
+            <img class="line-16" src="img/line-12.png" />
+            <div class="group-28">
+              <p class="element-5">
+                <span class="text-wrapper-23">33/</span> <span class="text-wrapper-24">20</span>
+              </p>
+              <div class="text-wrapper-90">Sunny</div>
+              <img class="sun-7" src="img/sun.png" />
+              <div class="text-wrapper-91" id="day6">Sat</div>
+            </div>
+            <img class="line-16" src="img/line-12.png" />
+            <div class="group-28">
+              <p class="element-5">
+                <span class="text-wrapper-23">33/</span> <span class="text-wrapper-24">20</span>
+              </p>
+              <div class="text-wrapper-90">Sunny</div>
+              <img class="sun-7" src="img/sun.png" />
+              <div class="text-wrapper-91" id="day7">sun</div>
+            </div>
+          </div>
+        </div>
+        <div class="search-bar">
+          <input class="search-city" id="search-city" type="text" placeholder="Search the city...">
+          <div class="overlap-12">
+            <button class="search-btn" onclick="searchBtnOnClicked()">SEARCH</button>
+          </div>
+        </div>
+      </div>
+      <div class="nav-bar">
+        <div class="overlap-13">
+          <div class="rectangle-12"></div>
+          <img class="add-list" src="img/add-list.png" />
+          <img class="slider" src="img/slider.png" />
+          <img class="rain-cloud" src="img/rain-cloud.png" />
+          <div class="favorite-cities">Favorite<br />Cities</div>
+          <div class="text-wrapper-96">Map</div>
+          <div class="text-wrapper-97">Customize</div>
+          <div class="text-wrapper-98">Weather</div>
+          <img class="map-marker" src="img/map-marker.png" />
+        </div>
+      </div>
+      <div class="dark-btn">
+        <div class="rectangle-wrapper">
+          <div class="rectangle-13"></div>
+        </div>
+        <div class="text-wrapper-99">Dark</div>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+   <script src="./scripts/script.js"></script>
+   
+</body>
+
+</html>

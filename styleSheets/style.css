@@ -1,0 +1,2678 @@
+.weather-app-main {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.weather-app-main .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 4319px;
+  position: relative;
+}
+
+.weather-app-main .overlap {
+  position: absolute;
+  width: 1274px;
+  height: 2128px;
+  top: 2050px;
+  left: 150px;
+}
+
+.weather-app-main .customize-page {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 55px;
+  padding: 50px 0px;
+  position: absolute;
+  top: 1020px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.weather-app-main .sub-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.weather-app-main .rectangle {
+  position: relative;
+  width: 712px;
+  height: 474px;
+}
+
+.weather-app-main .overlap-group {
+  position: relative;
+  width: 666px;
+  height: 517px;
+  top: -51px;
+  left: 14px;
+}
+
+.weather-app-main .text-wrapper {
+  position: absolute;
+  width: 188px;
+  top: 0;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .rectangle-2 {
+  position: absolute;
+  width: 652px;
+  height: 466px;
+  top: 51px;
+  left: 14px;
+  background-color: #3c3f49;
+  border-radius: 30px;
+}
+
+.weather-app-main .group {
+  position: absolute;
+  width: 514px;
+  height: 42px;
+  top: 114px;
+  left: 64px;
+}
+
+.weather-app-main .div-wrapper {
+  position: absolute;
+  width: 234px;
+  height: 39px;
+  top: 3px;
+  left: 0;
+  background-color: #1d1f40;
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: #ffffff;
+}
+
+.weather-app-main .text-wrapper-2 {
+  position: absolute;
+  top: 3px;
+  left: 69px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .overlap-group-2 {
+  position: absolute;
+  width: 234px;
+  height: 39px;
+  top: 0;
+  left: 276px;
+  background-color: #fbfbfc;
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: #ffffff;
+}
+
+.weather-app-main .text-wrapper-3 {
+  position: absolute;
+  top: 3px;
+  left: 55px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .group-2 {
+  position: absolute;
+  width: 514px;
+  height: 42px;
+  top: 227px;
+  left: 64px;
+}
+
+.weather-app-main .text-wrapper-4 {
+  position: absolute;
+  width: 82px;
+  top: 3px;
+  left: 74px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .group-3 {
+  position: absolute;
+  width: 514px;
+  height: 42px;
+  top: 335px;
+  left: 64px;
+}
+
+.weather-app-main .group-4 {
+  position: absolute;
+  width: 514px;
+  height: 42px;
+  top: 441px;
+  left: 64px;
+}
+
+.weather-app-main .text-wrapper-5 {
+  position: absolute;
+  width: 175px;
+  top: 66px;
+  left: 26px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-6 {
+  position: absolute;
+  width: 175px;
+  top: 178px;
+  left: 26px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-7 {
+  width: 175px;
+  top: 296px;
+  left: 26px;
+  font-size: 24px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-8 {
+  position: absolute;
+  width: 175px;
+  top: 403px;
+  left: 32px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .prem-container {
+  position: relative;
+  width: 562px;
+  height: 635px;
+}
+
+.weather-app-main .rectangle-3 {
+  display: flex;
+  width: 498px;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  top: 286px;
+  left: 4px;
+}
+
+.weather-app-main .rectangle-4 {
+  position: relative;
+  width: 511px;
+  height: 349px;
+  margin-right: -13px;
+  background-color: #3c3f49;
+  border-radius: 30px;
+}
+
+.weather-app-main .group-5 {
+  position: absolute;
+  width: 94.23%;
+  height: 66.81%;
+  top: 3.31%;
+  left: 7.83%;
+}
+
+.weather-app-main .text-wrapper-9 {
+  position: absolute;
+  width: 329px;
+  top: 0;
+  left: 14px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .text-wrapper-10 {
+  position: absolute;
+  width: 445px;
+  top: 79px;
+  left: 14px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .overlap-group-3 {
+  position: absolute;
+  width: 392px;
+  height: 108px;
+  top: 125px;
+  left: 14px;
+}
+
+.weather-app-main .text-wrapper-11 {
+  width: 344px;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-12 {
+  width: 392px;
+  top: 32px;
+  left: 0;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-13 {
+  width: 392px;
+  top: 66px;
+  left: 0;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .line {
+  position: absolute;
+  width: 459px;
+  height: 3px;
+  top: 67px;
+  left: 0;
+  object-fit: cover;
+}
+
+.weather-app-main .overlap-wrapper {
+  position: absolute;
+  top: 258px;
+  left: 66px;
+  width: 390px;
+  height: 80px;
+}
+
+.weather-app-main .element-month-wrapper {
+  position: relative;
+  width: 388px;
+  height: 80px;
+  background-color: #1d1f40;
+  border-radius: 25px;
+}
+
+.weather-app-main .element-month {
+  position: absolute;
+  width: 301px;
+  top: 14px;
+  left: 59px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .span {
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+}
+
+.weather-app-main .text-wrapper-14 {
+  font-size: 20px;
+}
+
+.weather-app-main .rectangle-5 {
+  display: flex;
+  flex-direction: column;
+  width: 512px;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 13px;
+  position: absolute;
+  top: 0;
+  left: 4px;
+  background-color: #3c3f49;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.weather-app-main .p {
+  position: relative;
+  width: 498px;
+  height: 55px;
+  margin-top: -1px;
+  margin-left: -6px;
+  margin-right: -6px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-15 {
+  position: relative;
+  width: 413px;
+  height: 66px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .overlap-group-wrapper {
+  position: relative;
+  width: 390px;
+  height: 80px;
+}
+
+.weather-app-main .overlap-group-4 {
+  position: relative;
+  width: 388px;
+  height: 80px;
+  background-color: #353ff0;
+  border-radius: 35px;
+}
+
+.weather-app-main .text-wrapper-16 {
+  position: absolute;
+  width: 200px;
+  top: 18px;
+  left: 130px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .img {
+  position: absolute;
+  top: 67px;
+  left: 14px;
+  width: 498px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.weather-app-main .rectangle-6 {
+  position: relative;
+  width: 1218px;
+  height: 318px;
+}
+
+.weather-app-main .overlap-2 {
+  position: relative;
+  width: 1188px;
+  height: 381px;
+  top: -63px;
+  left: 19px;
+}
+
+.weather-app-main .footer-box {
+  position: absolute;
+  width: 1188px;
+  height: 381px;
+  top: 0;
+  left: 0;
+}
+
+.weather-app-main .rectangle-7 {
+  position: absolute;
+  width: 1186px;
+  height: 318px;
+  top: 63px;
+  left: 0;
+}
+
+.weather-app-main .overlap-group-5 {
+  position: absolute;
+  width: 1177px;
+  height: 55px;
+  top: 0;
+  left: 0;
+}
+
+.weather-app-main .line-2 {
+  position: absolute;
+  width: 1177px;
+  height: 4px;
+  top: 51px;
+  left: 0;
+}
+
+.weather-app-main .support-feedback {
+  position: absolute;
+  width: 660px;
+  top: 0;
+  left: 6px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .footer-note {
+  display: flex;
+  width: 1075px;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: absolute;
+  top: 83px;
+  left: 34px;
+}
+
+.weather-app-main .you-can-send {
+  position: relative;
+  width: 632px;
+  margin-top: -1px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .contact-box {
+  position: relative;
+  width: 277px;
+  height: 132px;
+}
+
+.weather-app-main .text-wrapper-17 {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .text-wrapper-18 {
+  position: absolute;
+  top: 72px;
+  left: 6px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .text-wrapper-19 {
+  position: absolute;
+  top: 29px;
+  left: 26px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.weather-app-main .text-wrapper-20 {
+  position: absolute;
+  top: 107px;
+  left: 26px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .footer-bar {
+  position: absolute;
+  width: 1171px;
+  height: 54px;
+  top: 245px;
+  left: 6px;
+}
+
+.weather-app-main .twitter {
+  position: absolute;
+  width: 47px;
+  height: 50px;
+  top: 2px;
+  left: 464px;
+}
+
+.weather-app-main .instagram {
+  position: absolute;
+  width: 47px;
+  height: 50px;
+  top: 1px;
+  left: 550px;
+}
+
+.weather-app-main .tik-tok {
+  position: absolute;
+  width: 47px;
+  height: 50px;
+  top: 1px;
+  left: 771px;
+}
+
+.weather-app-main .linked-in {
+  position: absolute;
+  width: 47px;
+  height: 50px;
+  top: 2px;
+  left: 696px;
+}
+
+.weather-app-main .facebook-f {
+  position: absolute;
+  width: 47px;
+  height: 50px;
+  top: 4px;
+  left: 381px;
+}
+
+.weather-app-main .you-tube {
+  position: absolute;
+  width: 47px;
+  height: 50px;
+  top: 0;
+  left: 618px;
+}
+
+.weather-app-main .email {
+  position: absolute;
+  width: 47px;
+  height: 50px;
+  top: 2px;
+  left: 300px;
+}
+
+.weather-app-main .line-3 {
+  position: absolute;
+  width: 295px;
+  height: 2px;
+  top: 24px;
+  left: 0;
+  object-fit: cover;
+}
+
+.weather-app-main .line-4 {
+  position: absolute;
+  width: 353px;
+  height: 3px;
+  top: 24px;
+  left: 818px;
+  object-fit: cover;
+}
+
+.weather-app-main .copyright {
+  position: absolute;
+  width: 297px;
+  height: 30px;
+  top: 326px;
+  left: 439px;
+}
+
+.weather-app-main .text-wrapper-21 {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .text-wrapper-22 {
+  position: absolute;
+  top: 3px;
+  left: 131px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .copyright-2 {
+  position: absolute;
+  width: 27px;
+  height: 30px;
+  top: 0;
+  left: 104px;
+}
+
+.weather-app-main .map-page {
+  display: flex;
+  width: 1208px;
+  height: 1024px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0px;
+  position: absolute;
+  top: 0;
+  left: 34px;
+  background-color: #ffffff;
+}
+
+.weather-app-main .rectangle-8 {
+  position: relative;
+  width: 668px;
+  height: 866px;
+  object-fit: cover;
+}
+
+.weather-app-main .city-data-map {
+  position: relative;
+  width: 521px;
+  height: 1000px;
+  background-color: #3c3f49;
+  border-radius: 30px;
+}
+
+.weather-app-main .group-6 {
+  position: absolute;
+  width: 436px;
+  height: 95px;
+  top: 876px;
+  left: 40px;
+}
+
+.weather-app-main .element {
+  width: 81px;
+  top: 36px;
+  left: 349px;
+  font-weight: 400;
+  font-size: 24px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-23 {
+  font-weight: 700;
+}
+
+.weather-app-main .text-wrapper-24 {
+  font-weight: 500;
+}
+
+.weather-app-main .text-wrapper-25 {
+  width: 79px;
+  top: 36px;
+  left: 212px;
+  font-size: 24px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .sun {
+  position: absolute;
+  width: 86px;
+  height: 95px;
+  top: 0;
+  left: 106px;
+}
+
+.weather-app-main .text-wrapper-26 {
+  width: 58px;
+  top: 35px;
+  font-size: 24px;
+  position: absolute;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .group-7 {
+  position: absolute;
+  width: 471px;
+  height: 118px;
+  top: 745px;
+  left: 40px;
+}
+
+.weather-app-main .element-2 {
+  width: 81px;
+  top: 32px;
+  left: 349px;
+  font-weight: 400;
+  font-size: 24px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-27 {
+  width: 89px;
+  top: 33px;
+  left: 212px;
+  font-size: 24px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-28 {
+  width: 43px;
+  top: 38px;
+  font-size: 24px;
+  position: absolute;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .cloud {
+  position: absolute;
+  width: 106px;
+  height: 97px;
+  top: 0;
+  left: 96px;
+}
+
+.weather-app-main .line-5 {
+  position: absolute;
+  width: 459px;
+  height: 3px;
+  top: 115px;
+  left: 6px;
+  object-fit: cover;
+}
+
+.weather-app-main .group-8 {
+  position: absolute;
+  width: 470px;
+  height: 103px;
+  top: 633px;
+  left: 40px;
+}
+
+.weather-app-main .element-3 {
+  width: 82px;
+  top: 30px;
+  left: 352px;
+  font-weight: 400;
+  font-size: 24px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-29 {
+  width: 89px;
+  top: 31px;
+  left: 214px;
+  font-size: 24px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-30 {
+  width: 56px;
+  top: 33px;
+  font-size: 24px;
+  position: absolute;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .cloud-2 {
+  position: absolute;
+  width: 107px;
+  height: 93px;
+  top: 0;
+  left: 97px;
+}
+
+.weather-app-main .line-6 {
+  position: absolute;
+  width: 459px;
+  height: 3px;
+  top: 100px;
+  left: 5px;
+  object-fit: cover;
+}
+
+.weather-app-main .group-9 {
+  position: absolute;
+  width: 461px;
+  height: 240px;
+  top: 331px;
+  left: 42px;
+}
+
+.weather-app-main .group-10 {
+  position: absolute;
+  width: 96px;
+  height: 154px;
+  top: 63px;
+  left: 8px;
+}
+
+.weather-app-main .text-wrapper-31 {
+  width: 53px;
+  top: 115px;
+  left: 16px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .cloud-3 {
+  position: absolute;
+  width: 92px;
+  height: 63px;
+  top: 36px;
+  left: 0;
+}
+
+.weather-app-main .text-wrapper-32 {
+  width: 81px;
+  top: 0;
+  left: 3px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .group-11 {
+  position: absolute;
+  width: 106px;
+  height: 154px;
+  top: 63px;
+  left: 175px;
+}
+
+.weather-app-main .text-wrapper-33 {
+  width: 55px;
+  top: 115px;
+  left: 13px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .partly-cloudy-day {
+  position: absolute;
+  width: 88px;
+  height: 78px;
+  top: 27px;
+  left: 15px;
+}
+
+.weather-app-main .text-wrapper-34 {
+  width: 81px;
+  top: 0;
+  position: absolute;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .group-12 {
+  position: absolute;
+  width: 110px;
+  height: 154px;
+  top: 63px;
+  left: 340px;
+}
+
+.weather-app-main .text-wrapper-35 {
+  width: 53px;
+  top: 115px;
+  left: 20px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .sun-2 {
+  position: absolute;
+  width: 75px;
+  height: 87px;
+  top: 26px;
+  left: 32px;
+}
+
+.weather-app-main .text-wrapper-36 {
+  width: 87px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .line-7 {
+  position: absolute;
+  width: 1px;
+  height: 145px;
+  top: 68px;
+  left: 138px;
+  object-fit: cover;
+}
+
+.weather-app-main .line-8 {
+  position: absolute;
+  width: 1px;
+  height: 145px;
+  top: 71px;
+  left: 320px;
+  object-fit: cover;
+}
+
+.weather-app-main .text-wrapper-37 {
+  width: 113px;
+  top: 17px;
+  left: 4px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .line-9 {
+  position: absolute;
+  width: 459px;
+  height: 3px;
+  top: -1px;
+  left: 0;
+  object-fit: cover;
+}
+
+.weather-app-main .line-10 {
+  position: absolute;
+  width: 459px;
+  height: 3px;
+  top: 237px;
+  left: 0;
+  object-fit: cover;
+}
+
+.weather-app-main .text-wrapper-38 {
+  position: absolute;
+  width: 237px;
+  top: 586px;
+  left: 57px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .group-13 {
+  position: absolute;
+  width: 470px;
+  height: 224px;
+  top: 95px;
+  left: 39px;
+}
+
+.weather-app-main .sun-3 {
+  position: absolute;
+  width: 110px;
+  height: 141px;
+  top: 35px;
+  left: 354px;
+}
+
+.weather-app-main .text-wrapper-39 {
+  width: 143px;
+  top: 136px;
+  left: 45px;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 64px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-40 {
+  width: 243px;
+  top: 0;
+  left: 0;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 36px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-41 {
+  width: 224px;
+  top: 62px;
+  left: 4px;
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .overlap-3 {
+  position: absolute;
+  width: 1238px;
+  height: 2004px;
+  top: 10px;
+  left: 163px;
+}
+
+.weather-app-main .favorite-page {
+  display: flex;
+  width: 1238px;
+  height: 1005px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 13px;
+  position: absolute;
+  top: 999px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.weather-app-main .fav-container {
+  display: flex;
+  flex-direction: column;
+  width: 682px;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  position: relative;
+}
+
+.weather-app-main .rectangle-9 {
+  position: relative;
+  width: 680px;
+  height: 143px;
+  background-color: #3c3f49;
+  border-radius: 30px;
+}
+
+.weather-app-main .text-wrapper-42 {
+  width: 135px;
+  top: 49px;
+  left: 552px;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 48px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-43 {
+  width: 52px;
+  top: 88px;
+  left: 212px;
+  font-weight: 500;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-44 {
+  width: 180px;
+  top: 28px;
+  left: 195px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 36px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .sun-4 {
+  position: absolute;
+  width: 110px;
+  height: 141px;
+  top: 0;
+  left: 47px;
+}
+
+.weather-app-main .text-wrapper-45 {
+  width: 128px;
+  top: 46px;
+  left: 552px;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 48px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-46 {
+  width: 52px;
+  top: 83px;
+  left: 212px;
+  font-weight: 500;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-47 {
+  position: absolute;
+  width: 190px;
+  top: 23px;
+  left: 195px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .sun-5 {
+  position: absolute;
+  width: 110px;
+  height: 141px;
+  top: -5px;
+  left: 47px;
+}
+
+.weather-app-main .text-wrapper-48 {
+  width: 128px;
+  top: 44px;
+  position: absolute;
+  left: 552px;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-49 {
+  width: 52px;
+  top: 86px;
+  left: 212px;
+  font-weight: 500;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-50 {
+  position: absolute;
+  width: 180px;
+  top: 26px;
+  left: 195px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .heavy-rain {
+  position: absolute;
+  width: 113px;
+  height: 113px;
+  top: 18px;
+  left: 49px;
+}
+
+.weather-app-main .text-wrapper-51 {
+  width: 135px;
+  top: 38px;
+  position: absolute;
+  left: 552px;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-52 {
+  width: 52px;
+  top: 85px;
+  left: 212px;
+  font-weight: 500;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-53 {
+  position: absolute;
+  width: 180px;
+  top: 25px;
+  left: 195px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .heavy-rain-2 {
+  position: absolute;
+  width: 113px;
+  height: 113px;
+  top: 15px;
+  left: 49px;
+}
+
+.weather-app-main .text-wrapper-54 {
+  width: 135px;
+  top: 40px;
+  left: 552px;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 600;
+  font-size: 48px;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-55 {
+  width: 52px;
+  top: 84px;
+  left: 212px;
+  font-weight: 500;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-56 {
+  width: 180px;
+  top: 24px;
+  left: 195px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 36px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .partly-cloudy-day-2 {
+  position: absolute;
+  width: 115px;
+  height: 106px;
+  top: 20px;
+  left: 47px;
+}
+
+.weather-app-main .city-data {
+  position: relative;
+  width: 521px;
+  height: 1000px;
+  margin-top: -2.5px;
+  margin-bottom: -2.5px;
+  background-color: #3c3f49;
+  border-radius: 30px;
+}
+
+.weather-app-main .main-body {
+  display: flex;
+  width: 1206px;
+  height: 941px;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 72px;
+  left: 23px;
+}
+
+.weather-app-main .body {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 10px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.weather-app-main .body-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 87px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.weather-app-main .body-content {
+  position: relative;
+  width: 425px;
+  height: 208px;
+}
+
+.weather-app-main .overlap-group-6 {
+  position: absolute;
+  width: 425px;
+  height: 85px;
+  top: -1px;
+  left: 0;
+}
+
+.weather-app-main .text-wrapper-57 {
+  width: 398px;
+  top: 56px;
+  left: 27px;
+  color: #000000;
+  font-size: 24px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-58 {
+  width: 352px;
+  top: 0;
+  left: 0;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 36px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .star {
+  position: absolute;
+  width: 56px;
+  height: 55px;
+  top: 1px;
+  left: 270px;
+}
+
+.weather-app-main .star-2 {
+  position: absolute;
+  width: 53px;
+  height: 50px;
+  top: 0;
+  left: 1px;
+}
+
+.weather-app-main .text-wrapper-59 {
+  width: 243px;
+  top: 103px;
+  left: 55px;
+  font-family: "Montserrat Alternates", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 64px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .cloud-4 {
+  position: relative;
+  width: 291px;
+  height: 203px;
+  object-fit: cover;
+}
+
+.weather-app-main .today-view {
+  position: relative;
+  width: 766px;
+  height: 279px;
+  background-color: #3c3f49e8;
+  border-radius: 30px;
+}
+
+.weather-app-main .text-wrapper-60 {
+  width: 179px;
+  top: 12px;
+  left: 21px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .group-14 {
+  position: absolute;
+  width: 94px;
+  height: 152px;
+  top: 88px;
+  left: 651px;
+}
+
+.weather-app-main .text-wrapper-61 {
+  width: 86px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-62 {
+  width: 70px;
+  top: 113px;
+  left: 7px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  font-size: 28px;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .partly-cloudy-day-3 {
+  position: absolute;
+  width: 80px;
+  height: 78px;
+  top: 35px;
+  left: 10px;
+}
+
+.weather-app-main .group-15 {
+  position: absolute;
+  width: 96px;
+  height: 174px;
+  top: 78px;
+  left: 11px;
+}
+
+.weather-app-main .overlap-group-7 {
+  position: absolute;
+  width: 91px;
+  height: 174px;
+  top: 0;
+  left: 1px;
+}
+
+.weather-app-main .text-wrapper-63 {
+  position: absolute;
+  width: 91px;
+  top: 10px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .line-11 {
+  position: absolute;
+  width: 1px;
+  height: 174px;
+  top: 0;
+  left: 84px;
+  object-fit: cover;
+}
+
+.weather-app-main .text-wrapper-64 {
+  width: 51px;
+  top: 122px;
+  left: 5px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .cloud-5 {
+  position: absolute;
+  width: 84px;
+  height: 63px;
+  top: 55px;
+  left: 0;
+}
+
+.weather-app-main .group-16 {
+  position: absolute;
+  width: 92px;
+  height: 174px;
+  top: 80px;
+  left: 211px;
+}
+
+.weather-app-main .text-wrapper-65 {
+  position: absolute;
+  width: 87px;
+  top: 8px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .overlap-4 {
+  position: absolute;
+  width: 68px;
+  height: 132px;
+  top: 43px;
+  left: 7px;
+}
+
+.weather-app-main .text-wrapper-66 {
+  width: 66px;
+  top: 82px;
+  left: 0;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .sun-6 {
+  position: absolute;
+  width: 68px;
+  height: 87px;
+  top: 0;
+  left: 0;
+}
+
+.weather-app-main .line-12 {
+  position: absolute;
+  width: 1px;
+  height: 174px;
+  top: 0;
+  left: 88px;
+  object-fit: cover;
+}
+
+.weather-app-main .group-17 {
+  position: absolute;
+  width: 97px;
+  height: 174px;
+  top: 78px;
+  left: 108px;
+}
+
+.weather-app-main .text-wrapper-67 {
+  position: absolute;
+  width: 81px;
+  top: 10px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .overlap-5 {
+  position: absolute;
+  width: 86px;
+  height: 174px;
+  top: 0;
+  left: 7px;
+}
+
+.weather-app-main .text-wrapper-68 {
+  width: 70px;
+  top: 124px;
+  left: 0;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .partly-cloudy-day-4 {
+  position: absolute;
+  width: 80px;
+  height: 78px;
+  top: 46px;
+  left: 6px;
+}
+
+.weather-app-main .line-13 {
+  position: absolute;
+  width: 1px;
+  height: 174px;
+  top: 0;
+  left: 85px;
+  object-fit: cover;
+}
+
+.weather-app-main .group-18 {
+  position: absolute;
+  width: 93px;
+  height: 174px;
+  top: 78px;
+  left: 318px;
+}
+
+.weather-app-main .text-wrapper-69 {
+  position: absolute;
+  width: 80px;
+  top: 10px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .overlap-6 {
+  position: absolute;
+  width: 68px;
+  height: 129px;
+  top: 46px;
+  left: 4px;
+}
+
+.weather-app-main .text-wrapper-70 {
+  width: 61px;
+  top: 77px;
+  left: 3px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .line-14 {
+  position: absolute;
+  width: 1px;
+  height: 174px;
+  top: 0;
+  left: 89px;
+  object-fit: cover;
+}
+
+.weather-app-main .group-19 {
+  position: absolute;
+  width: 94px;
+  height: 174px;
+  top: 78px;
+  left: 546px;
+}
+
+.weather-app-main .text-wrapper-71 {
+  width: 82px;
+  top: 10px;
+  position: absolute;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-72 {
+  width: 69px;
+  top: 122px;
+  left: 8px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .partly-cloudy-day-5 {
+  position: absolute;
+  width: 80px;
+  height: 78px;
+  top: 44px;
+  left: 3px;
+}
+
+.weather-app-main .group-20 {
+  position: absolute;
+  width: 99px;
+  height: 174px;
+  top: 78px;
+  left: 428px;
+}
+
+.weather-app-main .text-wrapper-73 {
+  width: 83px;
+  top: 10px;
+  left: 0;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .overlap-7 {
+  position: absolute;
+  width: 79px;
+  height: 129px;
+  top: 46px;
+  left: 4px;
+}
+
+.weather-app-main .text-wrapper-74 {
+  width: 70px;
+  top: 77px;
+  left: 3px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 28px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .sun-behind-small {
+  position: absolute;
+  width: 79px;
+  height: 79px;
+  top: 0;
+  left: 0;
+}
+
+.weather-app-main .line-15 {
+  position: absolute;
+  width: 1px;
+  height: 174px;
+  top: 0;
+  left: 95px;
+  object-fit: cover;
+}
+
+.weather-app-main .rectangle-10 {
+  position: relative;
+  width: 766px;
+  height: 347px;
+}
+
+.weather-app-main .overlap-8 {
+  position: relative;
+  height: 288px;
+  background-color: #3c3f49e8;
+  border-radius: 30px;
+}
+
+.weather-app-main .group-21 {
+  position: absolute;
+  width: 155px;
+  height: 96px;
+  top: 15px;
+  left: 554px;
+}
+
+.weather-app-main .overlap-group-8 {
+  position: relative;
+  width: 151px;
+  height: 96px;
+}
+
+.weather-app-main .text-wrapper-75 {
+  width: 76px;
+  top: 57px;
+  left: 44px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  font-size: 32px;
+  white-space: nowrap;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-76 {
+  position: absolute;
+  top: 17px;
+  left: 57px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .temperature {
+  position: absolute;
+  width: 60px;
+  height: 58px;
+  top: 0;
+  left: 0;
+}
+
+.weather-app-main .group-22 {
+  position: absolute;
+  width: 165px;
+  height: 94px;
+  top: 17px;
+  left: 273px;
+}
+
+.weather-app-main .overlap-9 {
+  position: absolute;
+  width: 161px;
+  height: 94px;
+  top: 0;
+  left: 0;
+}
+
+.weather-app-main .text-wrapper-77 {
+  width: 123px;
+  top: 55px;
+  left: 38px;
+  font-size: 32px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .wind {
+  position: absolute;
+  width: 46px;
+  height: 60px;
+  top: 0;
+  left: 0;
+}
+
+.weather-app-main .text-wrapper-78 {
+  position: absolute;
+  top: 18px;
+  left: 56px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .group-23 {
+  position: absolute;
+  width: 155px;
+  height: 96px;
+  top: 15px;
+  left: 9px;
+}
+
+.weather-app-main .text-wrapper-79 {
+  position: absolute;
+  width: 80px;
+  top: 57px;
+  left: 71px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .text-wrapper-80 {
+  position: absolute;
+  top: 17px;
+  left: 56px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .humidity {
+  position: absolute;
+  width: 49px;
+  height: 59px;
+  top: 0;
+  left: 0;
+}
+
+.weather-app-main .group-24 {
+  position: absolute;
+  width: 154px;
+  height: 94px;
+  top: 160px;
+  left: 10px;
+}
+
+.weather-app-main .text-wrapper-81 {
+  position: absolute;
+  width: 18px;
+  top: 55px;
+  left: 70px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .text-wrapper-82 {
+  position: absolute;
+  top: 13px;
+  left: 58px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .sunlight {
+  position: absolute;
+  width: 46px;
+  height: 54px;
+  top: 0;
+  left: 0;
+}
+
+.weather-app-main .group-25 {
+  position: absolute;
+  width: 203px;
+  height: 102px;
+  top: 146px;
+  left: 261px;
+}
+
+.weather-app-main .overlap-10 {
+  position: absolute;
+  width: 199px;
+  height: 102px;
+  top: 0;
+  left: 0;
+}
+
+.weather-app-main .text-wrapper-83 {
+  position: absolute;
+  width: 137px;
+  top: 64px;
+  left: 62px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .rain-sensor {
+  position: absolute;
+  width: 64px;
+  height: 67px;
+  top: 0;
+  left: 0;
+}
+
+.weather-app-main .text-wrapper-84 {
+  top: 22px;
+  left: 68px;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .group-26 {
+  position: absolute;
+  width: 154px;
+  height: 102px;
+  top: 144px;
+  left: 554px;
+}
+
+.weather-app-main .overlap-11 {
+  position: absolute;
+  width: 140px;
+  height: 102px;
+  top: 0;
+  left: 0;
+}
+
+.weather-app-main .text-wrapper-85 {
+  width: 96px;
+  top: 64px;
+  left: 44px;
+  font-size: 32px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .invisible {
+  position: absolute;
+  width: 57px;
+  height: 75px;
+  top: 0;
+  left: 0;
+}
+
+.weather-app-main .text-wrapper-86 {
+  position: absolute;
+  top: 24px;
+  left: 65px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .rectangle-11 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  padding: 0px 29px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-left: -30px;
+  background-color: #3c3f49;
+  border-radius: 30px;
+}
+
+.weather-app-main .text-wrapper-87 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .group-27 {
+  position: relative;
+  width: 365px;
+  height: 63px;
+}
+
+.weather-app-main .element-4 {
+  top: 20px;
+  position: absolute;
+  left: 291px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-88 {
+  top: 19px;
+  left: 177px;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-89 {
+  top: 19px;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .cloud-6 {
+  position: absolute;
+  width: 84px;
+  height: 63px;
+  top: 0;
+  left: 74px;
+}
+
+.weather-app-main .line-16 {
+  position: relative;
+  width: 375px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.weather-app-main .group-28 {
+  position: relative;
+  width: 365px;
+  height: 87px;
+}
+
+.weather-app-main .element-5 {
+  top: 32px;
+  position: absolute;
+  left: 291px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-90 {
+  top: 31px;
+  left: 177px;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .sun-7 {
+  position: absolute;
+  width: 68px;
+  height: 87px;
+  top: 0;
+  left: 82px;
+}
+
+.weather-app-main .text-wrapper-91 {
+  top: 31px;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .group-29 {
+  position: relative;
+  width: 365px;
+  height: 82px;
+}
+
+.weather-app-main .element-6 {
+  top: 23px;
+  left: 291px;
+  font-weight: 400;
+  font-size: 24px;
+  position: absolute;
+  font-family: "Montserrat", Helvetica;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-92 {
+  position: absolute;
+  top: 22px;
+  left: 177px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .text-wrapper-93 {
+  position: absolute;
+  top: 22px;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .heavy-rain-3 {
+  position: absolute;
+  width: 83px;
+  height: 82px;
+  top: 0;
+  left: 64px;
+}
+
+.weather-app-main .search-bar {
+  position: sticky;
+  width: 629px;
+  height: 76px;
+  top: 0;
+  left: 27px;
+  background-color: #3c3f49e8;
+  border-radius: 20px;
+}
+
+.weather-app-main .search-city {
+  position: absolute;
+  width: 629px;
+  height: 76px;
+  top: 0;
+  left: 0px;
+  padding-left: 30px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;  
+  color: #ffffff;
+  border-color: transparent;
+  background-color: transparent;
+  border-radius: 20px;
+  font-size: 28px;
+  letter-spacing: 1;
+  
+ 
+}
+
+.weather-app-main .overlap-12 {
+  position: absolute;
+  width: 120px;
+  height: 76px;
+  top: 0;
+  left: 508px;
+  background-color: #3c3f49;
+  border-radius: 20px;
+}
+
+.weather-app-main .search-btn {
+  position: absolute;
+  width: 120px;
+  height: 76px;
+  top: 0px;
+  left: 0px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 22px;  
+  background-color: transparent;
+  border-radius: 15px;
+}
+
+.weather-app-main .nav-bar {
+  position: sticky;
+  width: 106px;
+  height: 915px;
+  top: 48px;
+  left: 44px;
+}
+
+.weather-app-main .overlap-13 {
+  position: relative;
+  width: 116px;
+  height: 902px;
+  top: 13px;
+}
+
+.weather-app-main .rectangle-12 {
+  position: absolute;
+  width: 106px;
+  height: 902px;
+  top: 0;
+  left: 0;
+  background-color: #3c3f49;
+  border-radius: 30px;
+}
+
+.weather-app-main .add-list {
+  position: absolute;
+  width: 51px;
+  height: 57px;
+  top: 315px;
+  left: 20px;
+}
+
+.weather-app-main .slider {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 752px;
+  left: 21px;
+}
+
+.weather-app-main .rain-cloud {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 121px;
+  left: 27px;
+}
+
+.weather-app-main .favorite-cities {
+  position: absolute;
+  top: 403px;
+  left: 10px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .text-wrapper-96 {
+  position: absolute;
+  top: 599px;
+  left: 25px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .text-wrapper-97 {
+  position: absolute;
+  top: 818px;
+  left: 8px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .text-wrapper-98 {
+  position: absolute;
+  top: 180px;
+  left: 13px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.weather-app-main .map-marker {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 537px;
+  left: 20px;
+}
+
+.weather-app-main .dark-btn {
+  position: absolute;
+  width: 160px;
+  height: 21px;
+  top: 56px;
+  left: 1169px;
+}
+
+.weather-app-main .rectangle-wrapper {
+  position: absolute;
+  width: 58px;
+  height: 16px;
+  top: 2px;
+  left: 47px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #0b0e19;
+}
+
+.weather-app-main .rectangle-13 {
+  position: relative;
+  width: 28px;
+  height: 12px;
+  left: 1px;
+  background-color: #000000;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.weather-app-main .text-wrapper-99 {
+  position: absolute;
+  width: 43px;
+  top: -1px;
+  left: 114px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
