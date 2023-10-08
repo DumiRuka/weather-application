@@ -1,5 +1,17 @@
 :root {
-  --variable-collection-background: rgba(11, 14, 25, 1);
-  --variable-collection-dark: none;
-  --variable-collection-themebtn: rgba(255, 255, 255, 1);
+    --background-color : #fff;
+    --text-color: #ffffff;
+    --title-color:#000;
+}
+.dark-theme{
+  --background-color : #0B0E19;
+  --text-color: #999;
+  --title-color:#fff;
+}
+
+body{
+  background: var(--background-color);
+  color: var(--text-color);
+  transition: background 0.8s, color 0.8s;
+
 }

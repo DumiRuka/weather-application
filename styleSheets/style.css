@@ -1,5 +1,5 @@
 .weather-app-main {
-  background-color: #ffffff;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -7,7 +7,7 @@
 }
 
 .weather-app-main .div {
-  background-color: #ffffff;
+  background-color: transparent;
   width: 1440px;
   height: 4319px;
   position: relative;
@@ -15,6 +15,7 @@
 
 .weather-app-main .overlap {
   position: absolute;
+  background-color: transparent;
   width: 1274px;
   height: 2128px;
   top: 2050px;
@@ -30,7 +31,7 @@
   position: absolute;
   top: 1020px;
   left: 0;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 .weather-app-main .sub-container {
@@ -51,6 +52,7 @@
 
 .weather-app-main .overlap-group {
   position: relative;
+  background-color: transparent;
   width: 666px;
   height: 517px;
   top: -51px;
@@ -118,7 +120,7 @@
   height: 39px;
   top: 0;
   left: 276px;
-  background-color: #fbfbfc;
+  background-color: transparent;
   border-radius: 20px;
   border: 2px solid;
   border-color: #ffffff;
@@ -287,6 +289,7 @@
 
 .weather-app-main .overlap-group-3 {
   position: absolute;
+  background-color: transparent;
   width: 392px;
   height: 108px;
   top: 125px;
@@ -426,6 +429,7 @@
 }
 
 .weather-app-main .overlap-group-wrapper {
+  background-color: transparent;
   position: relative;
   width: 390px;
   height: 80px;
@@ -468,6 +472,7 @@
 }
 
 .weather-app-main .overlap-2 {
+  background-color: transparent;
   position: relative;
   width: 1188px;
   height: 381px;
@@ -493,6 +498,7 @@
 
 .weather-app-main .overlap-group-5 {
   position: absolute;
+  background-color: transparent;
   width: 1177px;
   height: 55px;
   top: 0;
@@ -736,7 +742,7 @@
   position: absolute;
   top: 0;
   left: 34px;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 .weather-app-main .rectangle-8 {
@@ -765,7 +771,7 @@
 .weather-app-main .element {
   width: 81px;
   top: 36px;
-  left: 349px;
+  left: 370px;
   font-weight: 400;
   font-size: 24px;
   position: absolute;
@@ -776,25 +782,28 @@
 }
 
 .weather-app-main .text-wrapper-23 {
-  font-weight: 700;
+  font-size: 22px; 
+  font-weight: 600;
 }
 
 .weather-app-main .text-wrapper-24 {
+  font-size: 22px; 
   font-weight: 500;
 }
 
 .weather-app-main .text-wrapper-25 {
   width: 79px;
-  top: 36px;
+  top: 20px;
   left: 212px;
-  font-size: 24px;
+  font-size: 20px;
+  width: 140px;
+  overflow-wrap: break-word;  
   position: absolute;
   font-family: "Montserrat", Helvetica;
-  font-weight: 700;
+  font-weight: 500;
   color: #ffffff;
   letter-spacing: 0;
   line-height: normal;
-  white-space: nowrap;
 }
 
 .weather-app-main .sun {
@@ -830,7 +839,7 @@
 .weather-app-main .element-2 {
   width: 81px;
   top: 32px;
-  left: 349px;
+  left: 370px;
   font-weight: 400;
   font-size: 24px;
   position: absolute;
@@ -842,12 +851,14 @@
 
 .weather-app-main .text-wrapper-27 {
   width: 89px;
-  top: 33px;
+  top: 20px;
   left: 212px;
-  font-size: 24px;
+  font-size: 20px;
+  width: 140px;
+  overflow-wrap: break-word;  
   position: absolute;
   font-family: "Montserrat", Helvetica;
-  font-weight: 700;
+  font-weight: 500;
   color: #ffffff;
   letter-spacing: 0;
   line-height: normal;
@@ -894,7 +905,7 @@
 .weather-app-main .element-3 {
   width: 82px;
   top: 30px;
-  left: 352px;
+  left: 370px;
   font-weight: 400;
   font-size: 24px;
   position: absolute;
@@ -906,12 +917,14 @@
 
 .weather-app-main .text-wrapper-29 {
   width: 89px;
-  top: 31px;
+  top: 20px;
   left: 214px;
-  font-size: 24px;
+  font-size: 20px;
+  width: 140px;
+  overflow-wrap: break-word;  
   position: absolute;
   font-family: "Montserrat", Helvetica;
-  font-weight: 700;
+  font-weight: 500;
   color: #ffffff;
   letter-spacing: 0;
   line-height: normal;
@@ -1153,10 +1166,10 @@
 
 .weather-app-main .sun-3 {
   position: absolute;
-  width: 110px;
-  height: 141px;
-  top: 35px;
-  left: 354px;
+  width: 150px;
+  height: 150px;
+  top: 0px;
+  left:300px;
 }
 
 .weather-app-main .text-wrapper-39 {
@@ -1199,6 +1212,7 @@
 }
 
 .weather-app-main .overlap-3 {
+  background-color: transparent;
   position: absolute;
   width: 1238px;
   height: 2004px;
@@ -1216,7 +1230,7 @@
   position: absolute;
   top: 999px;
   left: 0;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 .weather-app-main .fav-container {
@@ -1229,7 +1243,35 @@
   position: relative;
 }
 
-.weather-app-main .rectangle-9 {
+.weather-app-main .fav1 {
+  position: relative;
+  width: 680px;
+  height: 143px;
+  background-color: #3c3f49;
+  border-radius: 30px;
+}
+.weather-app-main .fav2 {
+  position: relative;
+  width: 680px;
+  height: 143px;
+  background-color: #3c3f49;
+  border-radius: 30px;
+}
+.weather-app-main .fav3 {
+  position: relative;
+  width: 680px;
+  height: 143px;
+  background-color: #3c3f49;
+  border-radius: 30px;
+}
+.weather-app-main .fav4 {
+  position: relative;
+  width: 680px;
+  height: 143px;
+  background-color: #3c3f49;
+  border-radius: 30px;
+}
+.weather-app-main .fav5 {
   position: relative;
   width: 680px;
   height: 143px;
@@ -1496,7 +1538,7 @@
   left: 23px;
 }
 
-.weather-app-main .body {
+.weather-app-main .body1 {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1562,12 +1604,47 @@
   left: 270px;
 }
 
+.weather-app-main .star .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0%;
+  transition: opacity 0.3s;
+}
+
+.weather-app-main .star .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.weather-app-main .star:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
 .weather-app-main .star-2 {
   position: absolute;
-  width: 53px;
+  width: 50px;
   height: 50px;
   top: 0;
-  left: 1px;
+  left: 0px;
+  background: transparent;
+  border-color: transparent;
 }
 
 .weather-app-main .text-wrapper-59 {
@@ -1585,9 +1662,9 @@
 
 .weather-app-main .cloud-4 {
   position: relative;
-  width: 291px;
-  height: 203px;
-  object-fit: cover;
+  width: 255px;
+  height: 205px;
+  object-fit: fill;
 }
 
 .weather-app-main .today-view {
@@ -2299,7 +2376,7 @@
 .weather-app-main .text-wrapper-87 {
   position: relative;
   width: fit-content;
-  margin-top: -1px;
+  margin-top: 10px;
   font-family: "Montserrat", Helvetica;
   font-weight: 600;
   color: #ffffff;
@@ -2317,7 +2394,7 @@
 .weather-app-main .element-4 {
   top: 20px;
   position: absolute;
-  left: 291px;
+  left: 286px;
   font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -2327,13 +2404,14 @@
 }
 
 .weather-app-main .text-wrapper-88 {
-  top: 19px;
-  left: 177px;
+  top: 24px;
+  left: 160px;
   font-size: 20px;
-  white-space: nowrap;
+  max-width: 125px;
+  overflow-wrap: break-word;  
   position: absolute;
   font-family: "Montserrat", Helvetica;
-  font-weight: 700;
+  font-weight: 500;
   color: #ffffff;
   letter-spacing: 0;
   line-height: normal;
@@ -2376,7 +2454,7 @@
 .weather-app-main .element-5 {
   top: 32px;
   position: absolute;
-  left: 291px;
+  left: 285px;
   font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -2427,7 +2505,7 @@
 
 .weather-app-main .element-6 {
   top: 23px;
-  left: 291px;
+  left: 285px;
   font-weight: 400;
   font-size: 24px;
   position: absolute;
@@ -2551,9 +2629,9 @@
 
 .weather-app-main .add-list {
   position: absolute;
-  width: 51px;
-  height: 57px;
-  top: 315px;
+  width: 60px;
+  height: 60px;
+  top: -65px;
   left: 20px;
 }
 
@@ -2561,22 +2639,22 @@
   position: absolute;
   width: 60px;
   height: 60px;
-  top: 752px;
-  left: 21px;
+  top: -100px;
+  left: 15px;
 }
 
 .weather-app-main .rain-cloud {
   position: absolute;
   width: 60px;
   height: 60px;
-  top: 121px;
-  left: 27px;
+  top: -65px;
+  left: 20px;
 }
 
 .weather-app-main .favorite-cities {
   position: absolute;
   top: 403px;
-  left: 10px;
+  left: 0px;
   font-family: "Montserrat", Helvetica;
   font-weight: 500;
   color: #ffffff;
@@ -2586,7 +2664,116 @@
   line-height: normal;
 }
 
-.weather-app-main .text-wrapper-96 {
+.weather-app-main .favorite-cities .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0%;
+  transition: opacity 0.3s;
+}
+
+.weather-app-main .favorite-cities .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.weather-app-main .favorite-cities:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.weather-app-main .navText{
+  position: absolute;
+  top: 0px;
+  left: 8px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  border-bottom: 1px dotted rgb(255, 255, 255);
+}
+
+
+.weather-app-main .weather .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0%;
+  transition: opacity 0.3s;
+}
+
+.weather-app-main .weather .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.weather-app-main .weather:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.weather-app-main .navText1{
+  position: absolute;
+  top: -35px;
+  left: -3px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .navIcon{
+  position: flex;
+  top: 0px;
+  left: 8px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.weather-app-main .map {
   position: absolute;
   top: 599px;
   left: 25px;
@@ -2599,46 +2786,119 @@
   white-space: nowrap;
 }
 
-.weather-app-main .text-wrapper-97 {
+.weather-app-main .map .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0%;
+  transition: opacity 0.3s;
+}
+
+.weather-app-main .map .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.weather-app-main .map:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.weather-app-main .customize {
   position: absolute;
   top: 818px;
   left: 8px;
   font-family: "Montserrat", Helvetica;
   font-weight: 500;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
 }
 
-.weather-app-main .text-wrapper-98 {
-  position: absolute;
-  top: 180px;
-  left: 13px;
-  font-family: "Montserrat", Helvetica;
-  font-weight: 500;
+.weather-app-main .customize .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
   color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0%;
+  transition: opacity 0.3s;
+}
+
+.weather-app-main .customize .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.weather-app-main .customize:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.weather-app-main .weather {
+  position: relative;
+  display: inline-block;
+  top: 180px; 
+  font-family: "Montserrat", Helvetica; 
+ 
 }
 
 .weather-app-main .map-marker {
   position: absolute;
   width: 60px;
   height: 60px;
-  top: 537px;
-  left: 20px;
+  top: -65px;
+  left: 0px;
 }
 
 .weather-app-main .dark-btn {
   position: absolute;
+  background: #3c3f49;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 160px;
-  height: 21px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
   top: 56px;
   left: 1169px;
+}
+.weather-app-main .dark-btn img {
+  width: 25px;
+  margin-left: 10px;
 }
 
 .weather-app-main .rectangle-wrapper {
@@ -2676,3 +2936,4 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
