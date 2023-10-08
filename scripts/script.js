@@ -25,7 +25,7 @@ function searchBtnOnClicked() {
 
     $.ajax({
         method: "GET",
-        url: "http://api.weatherapi.com/v1/forecast.json?Key=566f72abab90409ebba155057231909&q=" + typedText + "&days=4",
+        url: "https://api.weatherapi.com/v1/forecast.json?Key=566f72abab90409ebba155057231909&q=" + typedText + "&days=4",
         success: (resp) => {
             console.log(resp);
             $('#location').text(resp.location.name);
@@ -166,7 +166,7 @@ btnFavorite.onclick = function () {
         imgFav.src = "img/Star-2-2 Orange.png";
         $.ajax({
             method: "GET",
-            url: "http://api.weatherapi.com/v1/forecast.json?Key=566f72abab90409ebba155057231909&q=" + typedText + "&days=4",
+            url: "https://api.weatherapi.com/v1/forecast.json?Key=566f72abab90409ebba155057231909&q=" + typedText + "&days=4",
             success: (resp) => {
                 console.log(resp);
                 $('#cityfav1').text(resp.location.name);
